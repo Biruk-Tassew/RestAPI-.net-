@@ -12,14 +12,14 @@ using restAPI.Data;
 namespace restAPI.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20230411131929_init_migration")]
-    partial class init_migration
+    [Migration("20230411163625_fix")]
+    partial class fix
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.15")
+                .HasAnnotation("ProductVersion", "6.0.16")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
