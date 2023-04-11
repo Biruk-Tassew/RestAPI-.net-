@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/restAPI.csproj": {}
+    "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/end_points/RestAPI-.net-/restAPI.csproj": {}
   },
   "projects": {
-    "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/restAPI.csproj": {
+    "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/end_points/RestAPI-.net-/restAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/restAPI.csproj",
+        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/end_points/RestAPI-.net-/restAPI.csproj",
         "projectName": "restAPI",
-        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/restAPI.csproj",
+        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/end_points/RestAPI-.net-/restAPI.csproj",
         "packagesPath": "/home/biruk/.nuget/packages/",
-        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/obj/",
+        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/end_points/RestAPI-.net-/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/biruk/.nuget/NuGet/NuGet.Config"
@@ -53,6 +53,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.*, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
