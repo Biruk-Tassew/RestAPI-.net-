@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9UcmWjfbTz6JC3LMUn0y1mDNibsKu7J8XRMYL4Bv2Uxjx9Rab10m9KeZ/HWS2zuY+ma4naoecTi0QHGkO1A3rg==",
+  "dgSpecHash": "2NzfQ+T4HfMg5Dc6s53ZV3f8cLx+CHOL5kL77/irD0b7bUMt+Imz6sINUtmutQ3vEI4Q9n7XwFYPz7hDRy7v/g==",
   "success": true,
-  "projectFilePath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/RestAPI-.net-/restAPI.csproj",
+  "projectFilePath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/restAPI.csproj",
   "expectedPackageFiles": [
     "/home/biruk/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.entityframeworkcore/6.0.15/microsoft.entityframeworkcore.6.0.15.nupkg.sha512",
