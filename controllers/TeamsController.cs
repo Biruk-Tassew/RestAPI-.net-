@@ -22,9 +22,9 @@ public class TeamsController : ControllerBase
         return Ok(teams);
     }
 
-    [HttpGet("{id}")]
-    public async Task<IActionResult> Get (int id){
-        var team = await _contex.Teams.FirstOrDefaultAsync(t => t.id == id);
+    [HttpGet("{Id}")]
+    public async Task<IActionResult> Get (int Id){
+        var team = await _contex.Teams.FirstOrDefaultAsync(t =>  t.Id == Id);
 
         if (team == null)
             return BadRequest(error: "Invalid Id");
@@ -38,29 +38,29 @@ public class TeamsController : ControllerBase
         await _contex.AddAsync(team);
         await _contex.SaveChangesAsync();
 
-        return CreatedAtAction("Get", team.id, team);
+        return CreatedAtAction("Get", team .Id, team);
     }
 
-    [HttpPatch("{id}")]
-    public async Task<IActionResult> Patch (int id, string name)
+    [HttpPatch("{Id}")]
+    public async Task<IActionResult> Patch (int Id, Team n_team)
     {
-        var team = await _contex.Teams.FirstOrDefaultAsync(t => t.id == id);
+        var team = await _contex.Teams.FirstOrDefaultAsync(t => t.Id == Id);
 
         if (team == null)
-            return BadRequest(error: "Invalid id");
+            return BadRequest(error: "Invalid Id");
 
-        team.Name = name;
+        team.Name = n_team.Name;
         await _contex.SaveChangesAsync();
         return Ok(team);
     }
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete (int id)
+    [HttpDelete("{Id}")]
+    public async Task<IActionResult> Delete (int Id)
     {
-        var team = await _contex.Teams.FirstOrDefaultAsync(t => t.id == id);
+        var team = await _contex.Teams.FirstOrDefaultAsync(t => t.Id == Id);
 
         if (team == null)
-            return BadRequest(error: "Invalid id");
+            return BadRequest(error: "Invalid Id");
 
         _contex.Remove(team);
         await _contex.SaveChangesAsync();
