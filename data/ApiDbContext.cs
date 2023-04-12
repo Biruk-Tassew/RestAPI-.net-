@@ -14,7 +14,6 @@ public class ApiDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-
         modelBuilder.Entity<Driver>(entity =>{
             // 1 - many
             entity.HasOne(t => t.Team)
