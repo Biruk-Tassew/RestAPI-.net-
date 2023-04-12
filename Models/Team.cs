@@ -8,6 +8,7 @@ public class Team : BaseEntity
     {
         Drivers = new HashSet<Driver>();
     }
+    public int id { get; set;}
     public string Name { get; set;} = "";
     public int Year { get; set; } = 2023;
 

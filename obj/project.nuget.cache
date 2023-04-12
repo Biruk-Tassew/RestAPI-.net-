@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2NzfQ+T4HfMg5Dc6s53ZV3f8cLx+CHOL5kL77/irD0b7bUMt+Imz6sINUtmutQ3vEI4Q9n7XwFYPz7hDRy7v/g==",
+  "dgSpecHash": "oWnRUy5ubd/hk5tzZZn8yoElp9AdQIYaXHce4ThjWAWnsGq8+OH9v2mj2FDLiNgBzaztcNXf8IqJJ5X+oIqwlw==",
   "success": true,
-  "projectFilePath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/RestAPI-.net-/restAPI.csproj",
+  "projectFilePath": "/home/biruk/Desktop/Classes/A2SV/Internship/day_3/rest/end_points/RestAPI-.net-/restAPI.csproj",
   "expectedPackageFiles": [
     "/home/biruk/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.entityframeworkcore/6.0.16/microsoft.entityframeworkcore.6.0.16.nupkg.sha512",
@@ -11,6 +11,7 @@
     "/home/biruk/.nuget/packages/microsoft.entityframeworkcore.design/6.0.16/microsoft.entityframeworkcore.design.6.0.16.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.16/microsoft.entityframeworkcore.relational.6.0.16.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.16/microsoft.entityframeworkcore.tools.6.0.16.nupkg.sha512",
+    "/home/biruk/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -20,8 +21,13 @@
     "/home/biruk/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/home/biruk/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/biruk/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/biruk/.nuget/packages/npgsql/6.0.8/npgsql.6.0.8.nupkg.sha512",
     "/home/biruk/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.8/npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
+    "/home/biruk/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/biruk/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/biruk/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/biruk/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/home/biruk/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/biruk/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "/home/biruk/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
